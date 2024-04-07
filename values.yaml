@@ -2,11 +2,11 @@ postgresql:
   auth:
     username: jmbesada
     password: fenix000
-    database: codechallenge
-    postgresPassword: root
+    database: categorizer
+    postgresPassword: fenix000
       
   primary:
     resources:
       requests:
         memory: 110Mi
-        cpu: 250m
+        cpu: 50m
